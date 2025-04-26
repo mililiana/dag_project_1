@@ -1,0 +1,20 @@
+[2025-04-14T16:33:24.859+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-14T16:33:24.868+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: build_data_marts.build_season_mart scheduled__2025-04-14T16:32:00+00:00 [queued]>
+[2025-04-14T16:33:24.872+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: build_data_marts.build_season_mart scheduled__2025-04-14T16:32:00+00:00 [queued]>
+[2025-04-14T16:33:24.872+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-14T16:33:24.879+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): build_season_mart> on 2025-04-14 16:32:00+00:00
+[2025-04-14T16:33:24.884+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'build_data_marts', 'build_season_mart', 'scheduled__2025-04-14T16:32:00+00:00', '--job-id', '1359', '--raw', '--subdir', 'DAGS_FOLDER/mart.py', '--cfg-path', '/tmp/tmpb9o3fjoj']
+[2025-04-14T16:33:24.886+0000] {standard_task_runner.py:105} INFO - Job 1359: Subtask build_season_mart
+[2025-04-14T16:33:24.888+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2032) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-14T16:33:24.889+0000] {standard_task_runner.py:72} INFO - Started process 2053 to run task
+[2025-04-14T16:33:24.920+0000] {task_command.py:467} INFO - Running <TaskInstance: build_data_marts.build_season_mart scheduled__2025-04-14T16:32:00+00:00 [running]> on host d2754bd7ccae
+[2025-04-14T16:33:24.963+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='build_data_marts' AIRFLOW_CTX_TASK_ID='build_season_mart' AIRFLOW_CTX_EXECUTION_DATE='2025-04-14T16:32:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-14T16:32:00+00:00'
+[2025-04-14T16:33:24.964+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-14T16:33:24.975+0000] {base.py:84} INFO - Retrieving connection 'postgres_local'
+[2025-04-14T16:33:24.982+0000] {logging_mixin.py:190} INFO - Executing SQL from: dags/sql/mart_bike_rentals_by_season.sql
+[2025-04-14T16:33:24.984+0000] {logging_mixin.py:190} INFO - SQL script executed.
+[2025-04-14T16:33:24.984+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-14T16:33:24.990+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-14T16:33:24.991+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=build_data_marts, task_id=build_season_mart, run_id=scheduled__2025-04-14T16:32:00+00:00, execution_date=20250414T163200, start_date=20250414T163324, end_date=20250414T163324
+[2025-04-14T16:33:25.029+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-14T16:33:25.036+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

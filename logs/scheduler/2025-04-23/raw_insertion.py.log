@@ -1,0 +1,105 @@
+[2025-04-23T20:04:51.044+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:04:51.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:04:51.049+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:04:51.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:04:51.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:04:51.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.031 seconds
+[2025-04-23T20:05:21.263+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:05:21.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:05:21.265+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:05:21.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:05:21.267+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:05:21.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.016 seconds
+[2025-04-23T20:05:52.265+0000] {processor.py:186} INFO - Started process (PID=315) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:05:52.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:05:52.268+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:05:52.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:05:52.270+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:05:52.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.014 seconds
+[2025-04-23T20:06:23.169+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:06:23.170+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:06:23.172+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:06:23.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:06:23.174+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:06:23.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.019 seconds
+[2025-04-23T20:06:54.135+0000] {processor.py:186} INFO - Started process (PID=427) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:06:54.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:06:54.137+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:06:54.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:06:54.141+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:06:54.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.020 seconds
+[2025-04-23T20:07:25.168+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:07:25.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:07:25.171+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:07:25.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:07:25.173+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:07:25.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.018 seconds
+[2025-04-23T20:07:56.191+0000] {processor.py:186} INFO - Started process (PID=547) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:07:56.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:07:56.194+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:07:56.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:07:56.197+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:07:56.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.020 seconds
+[2025-04-23T20:08:27.325+0000] {processor.py:186} INFO - Started process (PID=603) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:08:27.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:08:27.328+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:08:27.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:08:27.331+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:08:27.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.017 seconds
+[2025-04-23T20:08:57.492+0000] {processor.py:186} INFO - Started process (PID=659) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:08:57.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:08:57.494+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:08:57.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:08:57.497+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:08:57.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.017 seconds
+[2025-04-23T20:09:28.689+0000] {processor.py:186} INFO - Started process (PID=715) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:09:28.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:09:28.691+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:09:28.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:09:28.695+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:09:28.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.021 seconds
+[2025-04-23T20:09:59.184+0000] {processor.py:186} INFO - Started process (PID=771) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:09:59.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:09:59.186+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:09:59.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:09:59.188+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:09:59.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.016 seconds
+[2025-04-23T20:10:30.191+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:10:30.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:10:30.193+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:10:30.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:10:30.196+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:10:30.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.017 seconds
+[2025-04-23T20:11:01.235+0000] {processor.py:186} INFO - Started process (PID=883) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:11:01.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:11:01.237+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:11:01.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:11:01.239+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:11:01.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.015 seconds
+[2025-04-23T20:11:32.137+0000] {processor.py:186} INFO - Started process (PID=937) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:11:32.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:11:32.144+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:11:32.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:11:32.149+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:11:32.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.023 seconds
+[2025-04-23T20:12:03.012+0000] {processor.py:186} INFO - Started process (PID=994) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:12:03.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:12:03.016+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:12:03.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:12:03.020+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:12:03.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.020 seconds
+[2025-04-23T20:12:33.845+0000] {processor.py:186} INFO - Started process (PID=1049) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:12:33.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:12:33.847+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:12:33.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:12:33.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:12:33.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.014 seconds
+[2025-04-23T20:13:04.746+0000] {processor.py:186} INFO - Started process (PID=1106) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:13:04.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:13:04.749+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:13:04.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:13:04.753+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:13:04.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.018 seconds
+[2025-04-23T20:13:35.634+0000] {processor.py:186} INFO - Started process (PID=1163) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:13:35.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:13:35.636+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:13:35.636+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:13:35.638+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:13:35.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.015 seconds
+[2025-04-23T20:14:06.536+0000] {processor.py:186} INFO - Started process (PID=1218) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:14:06.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:14:06.540+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:14:06.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:14:06.543+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:14:06.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.018 seconds
+[2025-04-23T20:14:37.471+0000] {processor.py:186} INFO - Started process (PID=1275) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:14:37.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:14:37.473+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:14:37.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:14:37.475+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:14:37.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.015 seconds
+[2025-04-23T20:15:08.429+0000] {processor.py:186} INFO - Started process (PID=1329) to work on /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:15:08.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/raw_insertion.py for tasks to queue
+[2025-04-23T20:15:08.432+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:15:08.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:15:08.434+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/raw_insertion.py
+[2025-04-23T20:15:08.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/raw_insertion.py took 0.017 seconds

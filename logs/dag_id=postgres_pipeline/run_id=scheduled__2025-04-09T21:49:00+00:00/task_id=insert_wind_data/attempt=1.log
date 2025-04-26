@@ -1,0 +1,19 @@
+[2025-04-09T21:50:02.138+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-09T21:50:02.152+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_pipeline.insert_wind_data scheduled__2025-04-09T21:49:00+00:00 [queued]>
+[2025-04-09T21:50:02.161+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_pipeline.insert_wind_data scheduled__2025-04-09T21:49:00+00:00 [queued]>
+[2025-04-09T21:50:02.167+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-09T21:50:02.175+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): insert_wind_data> on 2025-04-09 21:49:00+00:00
+[2025-04-09T21:50:02.180+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=17004) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-09T21:50:02.183+0000] {standard_task_runner.py:72} INFO - Started process 17014 to run task
+[2025-04-09T21:50:02.180+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'postgres_pipeline', 'insert_wind_data', 'scheduled__2025-04-09T21:49:00+00:00', '--job-id', '1267', '--raw', '--subdir', 'DAGS_FOLDER/dag_postgres.py', '--cfg-path', '/tmp/tmp7dxogizh']
+[2025-04-09T21:50:02.184+0000] {standard_task_runner.py:105} INFO - Job 1267: Subtask insert_wind_data
+[2025-04-09T21:50:02.238+0000] {task_command.py:467} INFO - Running <TaskInstance: postgres_pipeline.insert_wind_data scheduled__2025-04-09T21:49:00+00:00 [running]> on host 970813cff045
+[2025-04-09T21:50:02.297+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='postgres_pipeline' AIRFLOW_CTX_TASK_ID='insert_wind_data' AIRFLOW_CTX_EXECUTION_DATE='2025-04-09T21:49:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-09T21:49:00+00:00'
+[2025-04-09T21:50:02.298+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-09T21:50:02.311+0000] {base.py:84} INFO - Retrieving connection 'postgres_local'
+[2025-04-09T21:50:02.701+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-09T21:50:02.708+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-09T21:50:02.709+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=postgres_pipeline, task_id=insert_wind_data, run_id=scheduled__2025-04-09T21:49:00+00:00, execution_date=20250409T214900, start_date=20250409T215002, end_date=20250409T215002
+[2025-04-09T21:50:02.733+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-09T21:50:02.749+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-09T21:50:02.750+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

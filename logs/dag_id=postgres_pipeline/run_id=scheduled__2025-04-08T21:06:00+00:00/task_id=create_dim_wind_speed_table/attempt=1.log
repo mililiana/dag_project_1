@@ -1,0 +1,18 @@
+[2025-04-08T21:07:58.667+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-08T21:07:58.679+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_pipeline.create_dim_wind_speed_table scheduled__2025-04-08T21:06:00+00:00 [queued]>
+[2025-04-08T21:07:58.686+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_pipeline.create_dim_wind_speed_table scheduled__2025-04-08T21:06:00+00:00 [queued]>
+[2025-04-08T21:07:58.686+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-08T21:07:58.705+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): create_dim_wind_speed_table> on 2025-04-08 21:06:00+00:00
+[2025-04-08T21:07:58.717+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=19801) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-08T21:07:58.715+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'postgres_pipeline', 'create_dim_wind_speed_table', 'scheduled__2025-04-08T21:06:00+00:00', '--job-id', '860', '--raw', '--subdir', 'DAGS_FOLDER/dag_postgres.py', '--cfg-path', '/tmp/tmp6n1xns57']
+[2025-04-08T21:07:58.718+0000] {standard_task_runner.py:72} INFO - Started process 19814 to run task
+[2025-04-08T21:07:58.718+0000] {standard_task_runner.py:105} INFO - Job 860: Subtask create_dim_wind_speed_table
+[2025-04-08T21:07:58.766+0000] {task_command.py:467} INFO - Running <TaskInstance: postgres_pipeline.create_dim_wind_speed_table scheduled__2025-04-08T21:06:00+00:00 [running]> on host 970813cff045
+[2025-04-08T21:07:58.835+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='postgres_pipeline' AIRFLOW_CTX_TASK_ID='create_dim_wind_speed_table' AIRFLOW_CTX_EXECUTION_DATE='2025-04-08T21:06:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-08T21:06:00+00:00'
+[2025-04-08T21:07:58.836+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-08T21:07:58.857+0000] {base.py:84} INFO - Retrieving connection 'postgres_local'
+[2025-04-08T21:07:58.873+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-08T21:07:58.882+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-08T21:07:58.883+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=postgres_pipeline, task_id=create_dim_wind_speed_table, run_id=scheduled__2025-04-08T21:06:00+00:00, execution_date=20250408T210600, start_date=20250408T210758, end_date=20250408T210758
+[2025-04-08T21:07:58.947+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-08T21:07:58.957+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

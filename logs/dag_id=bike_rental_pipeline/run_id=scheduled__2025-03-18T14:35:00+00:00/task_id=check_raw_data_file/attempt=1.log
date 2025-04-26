@@ -1,0 +1,24 @@
+[2025-03-18T14:40:00.886+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-18T14:40:00.894+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bike_rental_pipeline.check_raw_data_file scheduled__2025-03-18T14:35:00+00:00 [queued]>
+[2025-03-18T14:40:00.898+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bike_rental_pipeline.check_raw_data_file scheduled__2025-03-18T14:35:00+00:00 [queued]>
+[2025-03-18T14:40:00.898+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-18T14:40:00.903+0000] {taskinstance.py:2890} INFO - Executing <Task(FileSensor): check_raw_data_file> on 2025-03-18 14:35:00+00:00
+[2025-03-18T14:40:00.910+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=4272) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-18T14:40:00.909+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'bike_rental_pipeline', 'check_raw_data_file', 'scheduled__2025-03-18T14:35:00+00:00', '--job-id', '158', '--raw', '--subdir', 'DAGS_FOLDER/data_pipline_true.py', '--cfg-path', '/tmp/tmp45_2w3uf']
+[2025-03-18T14:40:00.911+0000] {standard_task_runner.py:105} INFO - Job 158: Subtask check_raw_data_file
+[2025-03-18T14:40:00.911+0000] {standard_task_runner.py:72} INFO - Started process 4273 to run task
+[2025-03-18T14:40:00.939+0000] {task_command.py:467} INFO - Running <TaskInstance: bike_rental_pipeline.check_raw_data_file scheduled__2025-03-18T14:35:00+00:00 [running]> on host 160f03d0fb70
+[2025-03-18T14:40:00.979+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bike_rental_pipeline' AIRFLOW_CTX_TASK_ID='check_raw_data_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-18T14:35:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-18T14:35:00+00:00'
+[2025-03-18T14:40:00.980+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-18T14:40:00.987+0000] {baseoperator.py:423} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2025-03-18T14:40:00.992+0000] {base.py:84} INFO - Retrieving connection 'bike_rental_data'
+[2025-03-18T14:40:00.992+0000] {filesystem.py:109} INFO - Poking for file /opt/***/dags/day.csv
+[2025-03-18T14:40:00.992+0000] {filesystem.py:113} INFO - Found File /opt/***/dags/day.csv last modified: 20220422002206
+[2025-03-18T14:40:00.992+0000] {base.py:339} INFO - Success criteria met. Exiting.
+[2025-03-18T14:40:00.992+0000] {filesystem.py:109} INFO - Poking for file /opt/***/dags/day.csv
+[2025-03-18T14:40:00.993+0000] {filesystem.py:113} INFO - Found File /opt/***/dags/day.csv last modified: 20220422002206
+[2025-03-18T14:40:00.996+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-18T14:40:00.997+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=bike_rental_pipeline, task_id=check_raw_data_file, run_id=scheduled__2025-03-18T14:35:00+00:00, execution_date=20250318T143500, start_date=20250318T144000, end_date=20250318T144000
+[2025-03-18T14:40:01.011+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-18T14:40:01.023+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-18T14:40:01.024+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

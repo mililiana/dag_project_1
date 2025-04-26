@@ -1,0 +1,78 @@
+[2025-04-26T15:30:28.897+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:30:28.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:30:28.901+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:30:28.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:30:28.907+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:30:28.920+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:30:28.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:30:29.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.157 seconds
+[2025-04-26T15:31:00.091+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:31:00.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:31:00.093+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:31:00.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:31:00.099+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:31:00.115+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:31:00.115+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:31:00.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.048 seconds
+[2025-04-26T15:31:31.136+0000] {processor.py:186} INFO - Started process (PID=357) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:31:31.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:31:31.142+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:31:31.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:31:31.155+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:31:31.171+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:31:31.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:31:31.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.080 seconds
+[2025-04-26T15:32:02.442+0000] {processor.py:186} INFO - Started process (PID=413) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:32:02.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:32:02.444+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:32:02.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:32:02.453+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:32:02.466+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:32:02.466+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:32:02.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.048 seconds
+[2025-04-26T15:32:33.526+0000] {processor.py:186} INFO - Started process (PID=469) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:32:33.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:32:33.528+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:32:33.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:32:33.534+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:32:33.547+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:32:33.547+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:32:33.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.045 seconds
+[2025-04-26T15:33:04.695+0000] {processor.py:186} INFO - Started process (PID=525) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:33:04.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:33:04.698+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:33:04.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:33:04.705+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:33:04.718+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:33:04.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:33:04.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.045 seconds
+[2025-04-26T15:33:35.866+0000] {processor.py:186} INFO - Started process (PID=581) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:33:35.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:33:35.868+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:33:35.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:33:35.875+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:33:35.889+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:33:35.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:33:35.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.045 seconds
+[2025-04-26T15:34:07.013+0000] {processor.py:186} INFO - Started process (PID=637) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:34:07.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:34:07.015+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:34:07.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:34:07.025+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:34:07.040+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:34:07.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:34:07.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.051 seconds
+[2025-04-26T15:34:38.229+0000] {processor.py:186} INFO - Started process (PID=693) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:34:38.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:34:38.232+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:34:38.231+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:34:38.239+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:34:38.253+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:34:38.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:34:38.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.047 seconds
+[2025-04-26T15:35:09.478+0000] {processor.py:186} INFO - Started process (PID=749) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:35:09.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:35:09.480+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:35:09.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:35:09.487+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:35:09.501+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:35:09.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:35:09.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.045 seconds
+[2025-04-26T15:35:40.719+0000] {processor.py:186} INFO - Started process (PID=805) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:35:40.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:35:40.722+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:35:40.722+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:35:40.729+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:35:40.743+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:35:40.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:35:40.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.046 seconds
+[2025-04-26T15:36:11.888+0000] {processor.py:186} INFO - Started process (PID=864) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:36:11.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:36:11.890+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:36:11.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:36:11.898+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:36:11.914+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:36:11.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:36:11.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.050 seconds
+[2025-04-26T15:36:43.037+0000] {processor.py:186} INFO - Started process (PID=918) to work on /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:36:43.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fisrt_dag_1.py for tasks to queue
+[2025-04-26T15:36:43.040+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:36:43.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:36:43.046+0000] {processor.py:925} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/fisrt_dag_1.py
+[2025-04-26T15:36:43.060+0000] {logging_mixin.py:190} INFO - [2025-04-26T15:36:43.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-26T15:36:43.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fisrt_dag_1.py took 0.046 seconds

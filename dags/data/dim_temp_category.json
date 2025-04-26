@@ -1,0 +1,14 @@
+[
+    {
+        "temp_category":"Cool"
+    },
+    {
+        "temp_category":"Cold"
+    },
+    {
+        "temp_category":"Warm"
+    },
+    {
+        "temp_category":"Hot"
+    }
+]

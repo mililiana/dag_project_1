@@ -1,0 +1,19 @@
+[2025-04-08T21:08:00.736+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-08T21:08:00.750+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_pipeline.create_dim_season_table scheduled__2025-04-08T21:07:00+00:00 [queued]>
+[2025-04-08T21:08:00.755+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_pipeline.create_dim_season_table scheduled__2025-04-08T21:07:00+00:00 [queued]>
+[2025-04-08T21:08:00.755+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-08T21:08:00.763+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): create_dim_season_table> on 2025-04-08 21:07:00+00:00
+[2025-04-08T21:08:00.769+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=19827) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-08T21:08:00.770+0000] {standard_task_runner.py:72} INFO - Started process 19832 to run task
+[2025-04-08T21:08:00.769+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'postgres_pipeline', 'create_dim_season_table', 'scheduled__2025-04-08T21:07:00+00:00', '--job-id', '864', '--raw', '--subdir', 'DAGS_FOLDER/dag_postgres.py', '--cfg-path', '/tmp/tmpcnu4hyn4']
+[2025-04-08T21:08:00.771+0000] {standard_task_runner.py:105} INFO - Job 864: Subtask create_dim_season_table
+[2025-04-08T21:08:00.811+0000] {task_command.py:467} INFO - Running <TaskInstance: postgres_pipeline.create_dim_season_table scheduled__2025-04-08T21:07:00+00:00 [running]> on host 970813cff045
+[2025-04-08T21:08:00.865+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='postgres_pipeline' AIRFLOW_CTX_TASK_ID='create_dim_season_table' AIRFLOW_CTX_EXECUTION_DATE='2025-04-08T21:07:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-08T21:07:00+00:00'
+[2025-04-08T21:08:00.867+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-08T21:08:00.882+0000] {base.py:84} INFO - Retrieving connection 'postgres_local'
+[2025-04-08T21:08:00.893+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-08T21:08:00.901+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-08T21:08:00.902+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=postgres_pipeline, task_id=create_dim_season_table, run_id=scheduled__2025-04-08T21:07:00+00:00, execution_date=20250408T210700, start_date=20250408T210800, end_date=20250408T210800
+[2025-04-08T21:08:00.950+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-08T21:08:00.974+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-08T21:08:00.976+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,18 @@
+[
+    {
+        "weather_code":1,
+        "weather_desc":"Clear, Few clouds, Partly cloudy"
+    },
+    {
+        "weather_code":2,
+        "weather_desc":"Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist"
+    },
+    {
+        "weather_code":3,
+        "weather_desc":"Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds"
+    },
+    {
+        "weather_code":4,
+        "weather_desc":"Heavy Rain + Ice Pellets + Thunderstorm + Mist, Snow + Fog"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "season_code":1,
+        "season_desc":"Winter"
+    },
+    {
+        "season_code":2,
+        "season_desc":"Spring"
+    },
+    {
+        "season_code":3,
+        "season_desc":"Summer"
+    },
+    {
+        "season_code":4,
+        "season_desc":"Fall"
+    }
+]
