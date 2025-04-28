@@ -1,6 +1,6 @@
-# 🚲 Bike Rental Data Pipeline Project
+# Bike Rental Data Pipeline Project
 
-## 📋 Project Overview
+## Project Overview
 This project builds an **ETL pipeline** for processing bike rental data using **Apache Airflow**.  
 
 You can find the **original dataset** here: [Bike Sharing Dataset (Regression) on Kaggle](https://www.kaggle.com/datasets/ayessa/bike-sharing-dataset-regression).
@@ -75,6 +75,9 @@ After running the DAG successfully, the transformed `.json` files will appear in
 
 - **Fact Table (`fact`)**:
   - `fact_bike_rentals.json` — Aggregated bike rental counts (`general_cnt_bike`, `cnt_bike_no_registration`, `cnt_bike_with_registration`).
+
+![alt text](scheme_data.png)
+![alt text](dataflowdiagram.png)
 
 Each fact table entry can be joined with dimension tables via common keys like `season_code`, `weather_code`, `date`, etc., during analysis.
 
